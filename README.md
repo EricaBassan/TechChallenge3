@@ -7,7 +7,7 @@ Repositório criado para o tech challenge 3 do curso de data analytics da FIAP
 
 <p align="center">
   <a href="">
-    <img src="Imagens\covid-cover.jpg"
+    <img src=".\Imagens\covid-cover.jpg"
          alt="version">
   </a>
 
