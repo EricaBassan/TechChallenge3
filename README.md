@@ -7,7 +7,7 @@ Repositório criado para o tech challenge 3 do curso de data analytics da FIAP
 
 <p align="center">
   <a href="">
-    <img src="Imagens\covid-cover.jpg"
+    <img src="Imagens\covid_cover.jpg"
          alt="version">
   </a>
 
@@ -115,7 +115,7 @@ Importamos os arquivos para um Bucket criado na Google Cloud Storage. </p>
   <a href=" ">
     <img src="Imagens\Bucket-Google-cloud-Storage.PNG" alt="webapp-architecture">
   </a>
-  <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
+  <caption style="font-size: smaller; text-align: center;"></caption>
 </p>
 
 Depois, criamos um conjunto de dados no BigQuery, e posteriormente incluimos os dados do Google Storage em uma tabela nesse conjunto de dados.
@@ -124,14 +124,14 @@ Depois, criamos um conjunto de dados no BigQuery, e posteriormente incluimos os 
   <a href=" ">
     <img src="Imagens\Criando_tabela_BigQuery.PNG" alt="webapp-architecture">
   </a>
-  <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
+  <caption style="font-size: smaller; text-align: center;"></caption>
 </p>
 
 <p align="center">
   <a href=" ">
     <img src="Imagens\Criando_tabela_BigQuery_2.PNG" alt="webapp-architecture">
   </a>
-  <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
+  <caption style="font-size: smaller; text-align: center;"></caption>
 </p>
 
 A tabela criada com os dados brutos, ficou com as seguintes configurações:
@@ -140,14 +140,14 @@ A tabela criada com os dados brutos, ficou com as seguintes configurações:
   <a href=" ">
     <img src="Imagens\Criando_tabela_BigQuery_3.PNG" alt="webapp-architecture">
   </a>
-  <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
+  <caption style="font-size: smaller; text-align: center;"></caption>
 </p>
 
 <p align="center">
   <a href=" ">
     <img src="Imagens\Criando_tabela_BigQuery_4.PNG" alt="webapp-architecture">
   </a>
-  <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
+  <caption style="font-size: smaller; text-align: center;"></caption>
 </p>
 
 Depois disso, utilizando do editor de querys, criamos uma view a partir da tabela de dados brutos.
@@ -157,14 +157,14 @@ A view já possuía as colunas com uma nomenclatura mais adequada e até algumas
   <a href=" ">
     <img src="Imagens\Criando_view_BigQuery.PNG" alt="webapp-architecture">
   </a>
-  <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
+  <caption style="font-size: smaller; text-align: center;"></caption>
 </p>
 
 <p align="center">
   <a href=" ">
     <img src="Imagens\Criando_view_BigQuery2.PNG" alt="webapp-architecture">
   </a>
-  <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
+  <caption style="font-size: smaller; text-align: center;"></caption>
 </p>
 
 Posteriormente, conectamos o banco de dados no Python, para algumas analises.
@@ -173,21 +173,21 @@ Posteriormente, conectamos o banco de dados no Python, para algumas analises.
   <a href=" ">
     <img src="Imagens\Conexao-Python-BigQuery.PNG" alt="webapp-architecture">
   </a>
-  <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
+  <caption style="font-size: smaller; text-align: center;"></caption>
 </p>
 
 <p align="center">
   <a href=" ">
     <img src="Imagens\Conexao-Python-BigQuery2.PNG" alt="webapp-architecture">
   </a>
-  <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
+  <caption style="font-size: smaller; text-align: center;"></caption>
 </p>
 
 <p align="center">
   <a href=" ">
     <img src="Imagens\Conexao-Python-BigQuery2.PNG" alt="webapp-architecture">
   </a>
-  <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
+  <caption style="font-size: smaller; text-align: center;"></caption>
 </p>
 
 E por fim, conectamos o BigQuery em uma ferramenta de BI (PowerBi):
@@ -196,14 +196,14 @@ E por fim, conectamos o BigQuery em uma ferramenta de BI (PowerBi):
   <a href=" ">
     <img src="Imagens\Conexao-Powerbi-BigQuery.PNG" alt="webapp-architecture">
   </a>
-  <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
+  <caption style="font-size: smaller; text-align: center;"></caption>
 </p>
 
 <p align="center">
   <a href=" ">
     <img src="Imagens\Conexao-Powerbi-BigQuery2.PNG" alt="webapp-architecture">
   </a>
-  <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
+  <caption style="font-size: smaller; text-align: center;"></caption>
 </p>
 
 # Características Clínicas dos Sintomas
@@ -216,7 +216,7 @@ Como podemos observar no gráfico abaixo, não houve concentração de sintomas 
   <a href=" ">
     <img src="Imagens\Grafico_sintomas_idade.PNG" alt="webapp-architecture">
   </a>
-  <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
+  <caption style="font-size: smaller; text-align: center;"></caption>
 </p>
 
 O segundo aspecto analisado foi o número de pessoas que procuraram um atendimento médico. </p>
@@ -226,7 +226,7 @@ Analisamos se as pessoas que possuiam plano de saúde procuraram atendimento em 
   <a href=" ">
     <img src="Imagens\grafico_plano_saude_atendimento.PNG" alt="webapp-architecture">
   </a>
-  <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
+  <caption style="font-size: smaller; text-align: center;"></caption>
 </p>
 
 - 98.98% dos entrevistados não procuraram atendimento;
@@ -241,7 +241,7 @@ Se considerarmos apenas as pessoas que possuíam manifestaram algum dos sintomas
   <a href=" ">
     <img src="Imagens\grafico_plano_saude_atendimento_sintomas.PNG" alt="webapp-architecture">
   </a>
-  <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
+  <caption style="font-size: smaller; text-align: center;"></caption>
 </p>
 
 A próxima característica analisada foi a % de pessoas que testaram positivo por UF:</p>
@@ -250,7 +250,7 @@ A próxima característica analisada foi a % de pessoas que testaram positivo po
   <a href=" ">
     <img src="Imagens\grafico_teste_positivo.PNG" alt="webapp-architecture">
   </a>
-  <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
+  <caption style="font-size: smaller; text-align: center;"></caption>
 </p>
 Pelo gráfico, podemos ver que os estados que mais tiveram testes positivos para COVID foram: São Paulo (6.82%), Rio de Janeiro (6.61%), Maranhão (6.59%),  Goiás (6.24%).</p>
 Relacionando esses dados com os estados que mais fizeram teste, vemos que a taxa de casos positivos/população testada de Roraima é uma das mais altas, sendo que 49% da população testada, tiveram um resultado positivo. E São Paulo, tendo umas taxas mais baixas, provavelmente devido seu investimento na compra de testes, que aumentou o número de pessoas que podiam realizá-lo.</p>
@@ -261,7 +261,7 @@ possuíram os menores PIB em 2020. Assim, podemos entender que não havia invest
   <a href=" ">
     <img src="Imagens\grafico_taxa.PNG" alt="webapp-architecture">
   </a>
-  <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
+  <caption style="font-size: smaller; text-align: center;"></caption>
 </p>
 
 Posteriormente, analisamos se as pessoas respeitaram a restrição da quarentena.</p>
@@ -272,26 +272,21 @@ Apenas 4% dos entrevistados não se preocuparam em permanecer na quarentena. E e
   <a href=" ">
     <img src="Imagens\grafico_restricao_resultado.PNG" alt="webapp-architecture">
   </a>
-  <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
+  <caption style="font-size: smaller; text-align: center;"></caption>
 </p>
 
 
 # Características da População
 
-Sobre a amostra de população, começamos analisando sexo e idade:</p>
-<p align="center">
-  <a href=" ">
-    <img src="Imagens\grafico_restricao_resultado.PNG" alt="webapp-architecture">
-  </a>
-  <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
-</p>
-Podemos ver pelo gráfico acima, que nossa amostra está bem distibuída entre ambos os genêros e possuí concentração de idade entre 20 e 60 anos. Sendo que a média de idade é próxima dos 40 anos, em ambos os sexos.</p>
+Sobre a amostra de população, começamos analisando sexo e idade.</p>
+
+Podemos ver pelo gráfico abaixo, que nossa amostra está bem distibuída entre ambos os genêros e possuí concentração de idade entre 20 e 60 anos. Sendo que a média de idade é próxima dos 40 anos, em ambos os sexos.</p>
 
 <p align="center">
   <a href=" ">
     <img src="Imagens\BoxPlot.PNG" alt="webapp-architecture">
   </a>
-  <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
+  <caption style="font-size: smaller; text-align: center;"></caption>
 </p>
 
 A escolaridade da amostra também foi outro fator analisado. Vemos que cerca de 33% da amostra não possuía ensino fundamental completo.</p>
@@ -304,7 +299,7 @@ Assim, vemos que a entrevista não foi tendenciosa e relatou a realidade da popu
   <a href=" ">
     <img src="Imagens\grafico_escolaridade_etnia.PNG" alt="webapp-architecture">
   </a>
-  <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
+  <caption style="font-size: smaller; text-align: center;"></caption>
 </p>
 
 As regiões que possuíam mais coincidiam com as regiões com mais populosas do Brasil: Sudeste, Nordeste e Sul, sendo que o Nordeste apresentou quase metade de sua população em zona rural.</p>
@@ -313,7 +308,7 @@ Segundo o IBGE, o nordeste é uma das regiões com a taxa de urbanização mais 
   <a href=" ">
     <img src="Imagens\grafico_regiao_situacao_domiciliar.PNG" alt="webapp-architecture">
   </a>
-  <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
+  <caption style="font-size: smaller; text-align: center;"></caption>
 </p>
 
 Analisando a renda das pessoas que possuíam atividade remunerada, 65% recebiam renda de até R$1600,00. Sendo o salário mínimo na época cerca de R$1045,00, vemos que a grande maioria da população tinha cerca de 1 salário minimo como renda. Além disso também observamos que a % de homens no mercado de trabalho é maior do que a de mulher. 58% das pessoas com atividade remunerada eram homens e 42% eram mulheres.</p>
@@ -322,7 +317,7 @@ Analisando a renda das pessoas que possuíam atividade remunerada, 65% recebiam 
   <a href=" ">
     <img src="Imagens\grafico_renda_sexo.PNG" alt="webapp-architecture">
   </a>
-  <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
+  <caption style="font-size: smaller; text-align: center;"></caption>
 </p>
 
 Outros aspecto analisado foi o plano de saúde da população. Dado que o plano de saúde possibilita acesso a hospitais de iniciativa privada, observamos que cerca de 22% da população, sem concentração de idade, possuíam algum tipo de convênio médico. Isso significa que pelo menos mais de 70% dos entrevistados iriam procurar atendimento em hospitais públicos, sobrecarregando assim o sistema de saúde.
@@ -331,7 +326,7 @@ Outros aspecto analisado foi o plano de saúde da população. Dado que o plano 
   <a href=" ">
     <img src="Imagens\Grafico_plano_saude_idade.PNG" alt="webapp-architecture">
   </a>
-  <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
+  <caption style="font-size: smaller; text-align: center;"></caption>
 </p>
 
 
@@ -343,7 +338,7 @@ Os estados do sudeste (São Paulo, Rio de Janeiro Distrito Federal) possuem taxa
   <a href=" ">
     <img src="Imagens\grafico_uf_plano_saude.PNG" alt="webapp-architecture">
   </a>
-  <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
+  <caption style="font-size: smaller; text-align: center;"></caption>
 </p>
 Finalizando a analise das caracteristicas da população, temos um gráfico onde mostramos que mais de 99% da população possuía acesso a itens fundamentais de higiene, para contenção do vírus: Mascaras e Sabão/detergente.</p>
 Na época da pandemia, a sociedade era instruída a não sair sem mascara e utilizar detergente/sabão para lavar as mãos, e haviam leis que tornavam a utilização da macára obrigatória em diversos estados, como forma de prevenir a disseminação do vírus. 
@@ -351,7 +346,7 @@ Na época da pandemia, a sociedade era instruída a não sair sem mascara e util
   <a href=" ">
     <img src="Imagens\Grafico_higiene.PNG" alt="webapp-architecture">
   </a>
-  <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
+  <caption style="font-size: smaller; text-align: center;"></caption>
 </p>
 
 
@@ -366,7 +361,7 @@ Ou seja, poderíamos ter estudado a distribuição do auxilio para um público m
   <a href=" ">
     <img src="Imagens\auxilio_emergencial_governo.PNG" alt="webapp-architecture">
   </a>
-  <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
+  <caption style="font-size: smaller; text-align: center;"></caption>
 </p>
 
 Sobre a taxa de descoupação na época, cerca de 14% das pessoas entrevistadas (e consideramos apenas maiores de 14 anos, assim como o IBGE), estavam sem realizar atividade remunerada na época.</p>
@@ -374,7 +369,7 @@ Sobre a taxa de descoupação na época, cerca de 14% das pessoas entrevistadas 
   <a href=" ">
     <img src="Imagens\taxa_descoupação.PNG" alt="webapp-architecture">
   </a>
-  <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
+  <caption style="font-size: smaller; text-align: center;"></caption>
 </p>
 
 Devido as medidas de restrição social, empresas tiveram que recorrer à mediadas extremas para sobreviver como: afastar funcionários ou demití-los. Muitas das pessoas que trabalhavam de forma autonoma ou que dependiam de doações tiveram que suspender suas atividades. 
@@ -384,7 +379,7 @@ A maioria se encontrava sem realizar atividades remuneradas e conseguiram ter o 
   <a href=" ">
     <img src="Imagens\emprestimo.PNG" alt="webapp-architecture">
   </a>
-  <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
+  <caption style="font-size: smaller; text-align: center;"></caption>
 </p>
 
 Por último, analisamos as condições de trabalho da população na época. Quase 90% das pessoas que informaram estar realizando alguma atividade remunerada, estava realizando de fomra habitual, sem respeitar as restrições da quarentena. 4% Estava realizando seu trabalho em modelo de home office.
@@ -393,7 +388,7 @@ Por último, analisamos as condições de trabalho da população na época. Qua
   <a href=" ">
     <img src="Imagens\grafico_caracteristica_trabalho.PNG" alt="webapp-architecture">
   </a>
-  <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
+  <caption style="font-size: smaller; text-align: center;"></caption>
 </p>
 
 Vale lembrar que para esta parte do estudo, consideramos apenas cidadãos que possuíam idade maior do que 14 anos, devido analises de atividades remuneradas.</p>
@@ -413,7 +408,7 @@ Além disso, 39% da população que possuía plano de saúde e não procurou ate
   <a href=" ">
     <img src="Imagens\conclusao1.PNG" alt="webapp-architecture">
   </a>
-  <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
+  <caption style="font-size: smaller; text-align: center;"></caption>
 </p>
 
 
@@ -422,7 +417,7 @@ Além disso, 39% da população que possuía plano de saúde e não procurou ate
   <a href=" ">
     <img src="Imagens\grafico_plano_saude_atendimento.PNG" alt="webapp-architecture">
   </a>
-  <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
+  <caption style="font-size: smaller; text-align: center;"></caption>
 </p>
 
 
@@ -438,7 +433,7 @@ Independente se sou um hospital de iniciativa privada ou pública, preciso:
   <a href=" ">
     <img src="Imagens\conclusao2.PNG" alt="webapp-architecture">
   </a>
-  <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
+  <caption style="font-size: smaller; text-align: center;"></caption>
 </p>
 
 - Investir em informação. 27.7% da população que procurou atendimento em hospital privado ou das forças armadas testaram negativo para COVID, e 33,3% dessas pessoas que buscaram atendimento, nem possuiam manifestações mais graves da sindrome gripal.</p>
