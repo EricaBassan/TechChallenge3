@@ -40,58 +40,60 @@ O desafio precisava cumprir os critérios abaixo:
 
 # Estudo PNAD COVID 19-IBGE
 
-A fonte de dados utilizada no projeto se encontra disponível em :(https://covid19.ibge.gov.br/pnad-covid/).<br>
-O estudo foi realizado pelo IBGE coletando informações entre maio/2020 e novembro/2020, e possuía o objetivo de medir a influência da pandemia do coronavírus no mercado de trabalho brasileiro, além de produzir informações relacionadas aos sintomas de gripe, e às comorbidades que a população apresentava na época. 
-A pesquisa apresentou resultado relevante a respeito da importancia do auxílio emergencial do governo, do modelo de trabalho e como a população lidou com os sintomas apresentados.
+A fonte de dados utilizada no projeto se encontra disponível em :(https://covid19.ibge.gov.br/pnad-covid/).<br></p>
+O estudo foi realizado pelo IBGE coletando informações entre maio/2020 e novembro/2020, e possuía o objetivo de medir a influência da pandemia do coronavírus no mercado de trabalho brasileiro, além de produzir </p>informações relacionadas aos sintomas de gripe, e às comorbidades que a população apresentava na época. </p>
+A pesquisa apresentou resultado relevante a respeito da importancia do auxílio emergencial do governo, do modelo de trabalho e como a população lidou com os sintomas apresentados.</p>
+</p>
+</p>
 
-Ela contou com mais de 200 perguntas a cada entrevistado, separadas pelas categorias: 
+Ela contou com mais de 200 perguntas a cada entrevistado, separadas pelas categorias: </p>
 
--Identificação e Controle (Perguntas gerais a respeito da UF do entrevistado, região, data da entrevista, etc);
--Características gerais dos moradores (Perguntas gerais a respeito de idade, sexo, etnia, escolaridade, etc);
--COVID19 - Todos os moradores (Questionário a respeito de sintomas que o entrevistado sentiu na última semana, se houve procura de estabeleicmento de saúde, se haviam comorbidades, etc)
--Características de trabalho das pessoas de 14 anos ou mais de idade;
--Rendimento de outras fontes dos moradores de 14 anos ou mais de idade;
--Empréstimos;
--Características da habitação.
+- Identificação e Controle (Perguntas gerais a respeito da UF do entrevistado, região, data da entrevista, etc);
+- Características gerais dos moradores (Perguntas gerais a respeito de idade, sexo, etnia, escolaridade, etc);
+- COVID19 - Todos os moradores (Questionário a respeito de sintomas que o entrevistado sentiu na última semana, se houve procura de estabeleicmento de saúde, se haviam comorbidades, etc);
+- Características de trabalho das pessoas de 14 anos ou mais de idade;
+- Rendimento de outras fontes dos moradores de 14 anos ou mais de idade;
+- Empréstimos;
+- Características da habitação.
 
-Para o projeto, poderíamos escolher perguntas ilimitadas a respeito das categorias:  Identificação e Controle e Características gerais dos moradores, e até 20 perguntas das demais categorias.
+Para o projeto, poderíamos escolher perguntas ilimitadas a respeito das categorias:  Identificação e Controle e Características gerais dos moradores, e até 20 perguntas das demais categorias.</p>
 
-Assim, as perguntas utilizadas foram:
+Assim, as perguntas utilizadas foram:</p>
 
--Ano de referência do estudo;
--UF (unidade de federação do entrevistado);
--Semana do mês em que a entrevista ocorreu;
--Número do domicílio;
--Número da entrevista no domicílio;
--UPA;
--Situação do domicílio;
--Idade do Morador;
--Etnia;
--Escolaridade;
--Na semana passada teve febre? (Pergunta 1);
--Na semana passada teve tosse? (Pergunta 2); 
--Na semana passada teve dificuldade para respirar? (Pergunta 3); 
--Por causa disso, foi a algum estabelecimento de saúde? (Pergunta 4); 
--Local que buscou atendimento foi pronto socorro do SUS/UPA? (Pergunta 5); 
--Ao procurar o hospital, teve que ficar internado por um dia ou mais?; (Pergunta 6); 
--Durante a internação, foi sedado, entubado e colocado em respiração artificial com ventilador? (Pergunta 7); 
--Tem algum plano de saúde médico, seja particular, de empresa ou de órgão público? (Pergunta 8); 
--O(A) Sr(a) fez algum teste para saber se estava infectado(a) pelo coronavírus?  (Pergunta 9); 
--Qual o resultado do teste SWAB? (Pergunta 9); 
--Qual o resultado teste de sangue através de furo no dedo? (Pergunta 9);
--Qual o resultado teste de sangue através da veia da braço? (Pergunta 9);
--Algum médico já lhe deu o diagnóstico de asma/bronquite/enfisema/doenças respiratória crônica ou doença de pulmão? (Pergunta 10);
--Qual foi o resultado do teste?  Na semana passada, devido à pandemia do Coronavírus, em que medida o(a) Sr(a) restringiu o contato com as pessoas? (Pergunta 11);
--Na semana passada, por pelo menos uma hora, trabalhou ou fez algum bico? (Pergunta 12);
--Na semana passada, estava temporariamente afastado de algum trabalho? (Pergunta 13);
--No trabalho (único ou principal) que tinha nessa semana, era: (Pergunta 14); 
--Quanto recebia (ou retirava) efetivamente em todos os seus trabalhos?(Pergunta 15);
--Número da faixa do rendimento/retirada em dinheiro;(Pergunta 15);
--Na semana passada, o(a) Sr(a) estava em trabalho remoto (home office ou teletrabalho)?(Pergunta 16);
--Auxílios emergenciais relacionados ao coronavirus? (Pergunta 17);
--Durante o período da pandemia alguém deste domicílio solicitou algum empréstimo?  (Pergunta 18);
--No seu domicílio há os seguintes itens básicos de limpeza e proteção: máscaras ? (Pergunta 19);
--No seu domicílio há os seguintes itens básicos de limpeza e proteção: sabão ou detergente? (Pergunta 20);
+- Ano de referência do estudo;
+- UF (unidade de federação do entrevistado);
+- Semana do mês em que a entrevista ocorreu;
+- Número do domicílio;
+- Número da entrevista no domicílio;
+- UPA;
+- Situação do domicílio;
+- Idade do Morador;
+- Etnia;
+- Escolaridade;
+- Na semana passada teve febre? (Pergunta 1);
+- Na semana passada teve tosse? (Pergunta 2); 
+- Na semana passada teve dificuldade para respirar? (Pergunta 3); 
+- Por causa disso, foi a algum estabelecimento de saúde? (Pergunta 4); 
+- Local que buscou atendimento foi pronto socorro do SUS/UPA? (Pergunta 5); 
+- Ao procurar o hospital, teve que ficar internado por um dia ou mais?; (Pergunta 6); 
+- Durante a internação, foi sedado, entubado e colocado em respiração artificial com ventilador? (Pergunta 7); 
+- Tem algum plano de saúde médico, seja particular, de empresa ou de órgão público? (Pergunta 8); 
+- O(A) Sr(a) fez algum teste para saber se estava infectado(a) pelo coronavírus?  (Pergunta 9); 
+- Qual o resultado do teste SWAB? (Pergunta 9); 
+- Qual o resultado teste de sangue através de furo no dedo? (Pergunta 9);
+- Qual o resultado teste de sangue através da veia da braço? (Pergunta 9);
+- Algum médico já lhe deu o diagnóstico de asma/bronquite/enfisema/doenças respiratória crônica ou doença de pulmão? (Pergunta 10);
+- Qual foi o resultado do teste?  Na semana passada, devido à pandemia do Coronavírus, em que medida o(a) Sr(a) restringiu o contato com as pessoas? (Pergunta 11);
+- Na semana passada, por pelo menos uma hora, trabalhou ou fez algum bico? (Pergunta 12);
+- Na semana passada, estava temporariamente afastado de algum trabalho? (Pergunta 13);
+- No trabalho (único ou principal) que tinha nessa semana, era: (Pergunta 14); 
+- Quanto recebia (ou retirava) efetivamente em todos os seus trabalhos?(Pergunta 15);
+- Número da faixa do rendimento/retirada em dinheiro;(Pergunta 15);
+- Na semana passada, o(a) Sr(a) estava em trabalho remoto (home office ou teletrabalho)?(Pergunta 16);
+- Auxílios emergenciais relacionados ao coronavirus? (Pergunta 17);
+- Durante o período da pandemia alguém deste domicílio solicitou algum empréstimo?  (Pergunta 18);
+- No seu domicílio há os seguintes itens básicos de limpeza e proteção: máscaras ? (Pergunta 19);
+- No seu domicílio há os seguintes itens básicos de limpeza e proteção: sabão ou detergente? (Pergunta 20);
 
 
 
@@ -103,16 +105,106 @@ Além disso, consideramos que a pergunta "Recebia pela atividade remuerada reali
 
 # Organização do Banco de dados
 
+O banco de dados escolhido para armazenar os dados foi o Google BigQuery.</p>
 
+Inicialmente fizemos o download dos arquivos mensais do IBGE de: set/20,out/20 e nov/20.</p>
+Tratamos os 3 arquivos para que ficassem com a mesma quantidade de colunas e com os dados padronizados.</p>
+Importamos os arquivos para um Bucket criado na Google Cloud Storage. </p>
 
 <p align="center">
   <a href=" ">
-    <img src="Imagens\Fechamento Ibovespa últimos 10 anos.PNG" alt="webapp-architecture">
+    <img src="Imagens\Bucket-Google-cloud-Storage.PNG" alt="webapp-architecture">
   </a>
   <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
 </p>
 
+Depois, criamos um conjunto de dados no BigQuery, e posteriormente incluimos os dados do Google Storage em uma tabela nesse conjunto de dados.
 
+<p align="center">
+  <a href=" ">
+    <img src="Imagens\Criando_tabela_BigQuery.PNG" alt="webapp-architecture">
+  </a>
+  <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
+</p>
+
+<p align="center">
+  <a href=" ">
+    <img src="Imagens\Criando_tabela_BigQuery_2.PNG" alt="webapp-architecture">
+  </a>
+  <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
+</p>
+
+A tabela criada com os dados brutos, ficou com as seguintes configurações:
+
+<p align="center">
+  <a href=" ">
+    <img src="Imagens\Criando_tabela_BigQuery_3.PNG" alt="webapp-architecture">
+  </a>
+  <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
+</p>
+
+<p align="center">
+  <a href=" ">
+    <img src="Imagens\Criando_tabela_BigQuery_4.PNG" alt="webapp-architecture">
+  </a>
+  <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
+</p>
+
+Depois disso, utilizando do editor de querys, criamos uma view a partir da tabela de dados brutos.
+A view já possuía as colunas com uma nomenclatura mais adequada e até algumas transformações de dados realizadas.
+
+<p align="center">
+  <a href=" ">
+    <img src="Imagens\Criando_view_BigQuery.PNG" alt="webapp-architecture">
+  </a>
+  <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
+</p>
+
+<p align="center">
+  <a href=" ">
+    <img src="Imagens\Criando_view_BigQuery2.PNG" alt="webapp-architecture">
+  </a>
+  <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
+</p>
+
+Posteriormente, conectamos o banco de dados no Python, para algumas analises.
+
+<p align="center">
+  <a href=" ">
+    <img src="Imagens\Conexao-Python-BigQuery.PNG" alt="webapp-architecture">
+  </a>
+  <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
+</p>
+
+<p align="center">
+  <a href=" ">
+    <img src="Imagens\Conexao-Python-BigQuery2.PNG" alt="webapp-architecture">
+  </a>
+  <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
+</p>
+
+<p align="center">
+  <a href=" ">
+    <img src="Imagens\Conexao-Python-BigQuery2.PNG" alt="webapp-architecture">
+  </a>
+  <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
+</p>
+
+E por fim, conectamos o BigQuery em uma ferramenta de BI (PowerBi):
+
+<p align="center">
+  <a href=" ">
+    <img src="Imagens\Conexao-Powerbi-BigQuery.PNG" alt="webapp-architecture">
+  </a>
+  <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
+</p>
+
+<p align="center">
+  <a href=" ">
+    <img src="Imagens\Conexao-Powerbi-BigQuery2.PNG" alt="webapp-architecture">
+  </a>
+  <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
+</p>
 
 # Métodos aplicados
 
