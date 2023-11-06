@@ -387,6 +387,68 @@ A maioria se encontrava sem realizar atividades remuneradas e conseguiram ter o 
   <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
 </p>
 
-Por último, analisamos 
+Por último, analisamos as condições de trabalho da população na época. Quase 90% das pessoas que informaram estar realizando alguma atividade remunerada, estava realizando de fomra habitual, sem repseitar as restrições da quarentena. 4% Estava realizando seu trabalho em modelo de home office.
+
+<p align="center">
+  <a href=" ">
+    <img src="Imagens\grafico_caracteristica_trabalho.PNG" alt="webapp-architecture">
+  </a>
+  <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
+</p>
+
+Vale lembrar que para esta parte do estudo, consideramos apenas cidadãos que possuíam idade maior do que 14 anos, devido analises de atividades remuneradas.</p>
 
 # Conclusão
+
+
+Respondendo à principal pergunta do desafio: "Quais as principais medidas que o hospital deverá tomar em caso de um novo surto de COVID-19?", a resposta final é que depende do tipo de hospital em que estamos focando;</p>
+
+Se eu sou um hospital da inicitiva privada, meu plano seria:
+
+- Investir em teleatendimento, pois 53% dos entrevistados que sentiram alguns dos sintomas e possuiam plano de saúde, não procuraram atendimento. Entedemos que um dos fatores que pode ter influenciado nessa decisão seria o medo de procurar atendimento e se infectar com a doença, ou ainda a demora em receber atendimento no estabelecimento.</p>
+Além disso, 39% da população que possuía plano de saúde e não procurou estabelecimento, testou positivo para covid. O teleatendimento poderia ter orientado essa população com os cuidados necessários.
+15% das pessoas que procurarm atendimento público, possuía plano de saúde.
+  
+ <p align="center">
+  <a href=" ">
+    <img src="Imagens\conclusao1.PNG" alt="webapp-architecture">
+  </a>
+  <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
+</p>
+
+
+- Investir em condições especiais de valores para atender pessoas sem convênio. Com a sobrecarga do sistema público de saúde, muitas pessoas podem procurar vaga em hospitais privados. O estudo mostrou que 67.7% das pessoas que procuraram atendimento em hospital privado (ou das forças armadas) não possuiam nenhum tipo de plano de saúde. Poderíamos capturar mais esse público com condições especiais de valores/atendimento.
+ <p align="center">
+  <a href=" ">
+    <img src="Imagens\grafico_plano_saude_atendimento.PNG" alt="webapp-architecture">
+  </a>
+  <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
+</p>
+
+
+- Investir em parcerias com os prestadores de serviços de convênios. 10,1% da população sem convênio médico, recebia mais R$1600,00. Talvez seria interessante tentar capturar a população com renda maior que não possuía plano de saúde.
+
+
+Independente se sou um hospital de iniciativa privada ou pública, preciso:
+
+- Investir em testes. Apenas 11% da população entrevistada foi testada e cerca de 30% das pessoas que precisaram de internação não tiveram o teste de covid realizado.
+
+
+ <p align="center">
+  <a href=" ">
+    <img src="Imagens\conclusao2.PNG" alt="webapp-architecture">
+  </a>
+  <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
+</p>
+
+- Investir em informação. 27.7% da população que procurou atendimento em hospital privado ou das forças armadas testaram negativo para COVID, e 33,3% dessas pessoas que buscaram atendimento, nem possuiam manifestações mais graves da sindrome gripal.</p>
+26.2% das pessoas que procuraram atendimento em UPA não possuiam sintomas e 26.7% tiveram o teste negativo.</p>
+A desinformação acaba gerando pessoas desesperadas que sobrecarregam o sistema de saúde, que numa situação de pandemia devem priorizar seus insumos para os casos mais graves.</p>
+Para isso, os hospitais devem contar com uma triagem melhor dos casos que irá servir para separar os casos graves dos mais triviais..</p>
+
+- Investir em hospitais de campanha; Devemos separar os tipos de doenças por pronto socorros. Os casos de emergencia por covid devem ser separados dos demais, pelo risco que apresentam. É importante que uma pessoa com infarto, por exemplo, não esteja ligada aos casos graves de covid, correndo risco de infecção.
+
+
+Lembrando que todos os números foram extraídos do Dashboard Construído no PowerBi, envolvendo a manipulação dos gráficos dispostos no arquivo.
+
+  
