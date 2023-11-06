@@ -21,10 +21,10 @@ Repositório criado para o tech challenge 3 do curso de data analytics da FIAP
 - [Objetivo Tech Challenge](#objetivo-do-tech-challenge)
 - [Estudo PNAD COVID 19-IBGE](#estudo-pnad-covid-19-ibge)
 - [Organização do Banco de dados](#organização-do-banco-de-dados)
-- [Características Clínicas dos Sintomas](#métodos-aplicados)
-- [Características da População](#modelos-preditivos)
-- [Características Economicas da Sociedade](#resultados)
-- [Conclusão](#resultados)
+- [Características Clínicas dos Sintomas](#características-clínicas-dos-sintomas)
+- [Características da População](#características-da-população)
+- [Características Economicas da Sociedade](#características-economicas-da-sociedade)
+- [Conclusão](#conclusão)
 
 
 # Objetivo do Tech Challenge
@@ -206,7 +206,80 @@ E por fim, conectamos o BigQuery em uma ferramenta de BI (PowerBi):
   <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
 </p>
 
-# Métodos aplicados
+# Características Clínicas dos Sintomas
+
+A respeito da ánalise clínica dos sintomas, começamos com a distribuição da população que teve algum dos seguintes sintomas: Febre, tosse ou dificuldades respiratórias.</p>
+Cerca de 1.83% da população relata ter tido pelo menos um dos sintomas descritos acima.</p>
+Como podemos observar no gráfico abaixo, não houve concentração de sintomas por idade.</p>
+
+<p align="center">
+  <a href=" ">
+    <img src="Imagens\Grafico_sintomas_idade.PNG" alt="webapp-architecture">
+  </a>
+  <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
+</p>
+
+O segundo aspecto analisado foi o número de pessoas que procuraram um atendimento médico. </p>
+Analisamos se as pessoas que possuiam plano de saúde procuraram atendimento em pronto socorro da UPA ou do SUS (público).</p>
+
+<p align="center">
+  <a href=" ">
+    <img src="Imagens\grafico_plano_saude_atendimento.PNG" alt="webapp-architecture">
+  </a>
+  <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
+</p>
+
+- 98.98% dos entrevistados não procuraram atendimento;
+- 0.81% dos entrevistados procuraram atendimento em estabelecimento privado ou relacionado às forças armadas;
+- 0.21% procuram atendimento em pronto socorro do SUS/UPA (sendo que 15% dessas pessoas possuíam plano de saúde e poderiam ter recorrido à um hospital privado);
+
+Se considerarmos apenas as pessoas que possuíam manifestaram algum dos sintomas (febre, tosse ou dificuldade em respirar), 61% não procurou um estabelecimento de saúde para resolver seu problema. Isso pode ter ocorrido devido alguns fatores: </p>
+-Individuo não possuía plano de saúde (representavam 49% dos 61%) e não quis procurar hospital público;  
+-individuo não sentiu que seus sintomas eram significativos o sucifiente ou, pode ter sentido que a coparticipação do convênio não valeria a pena.</p>
+
+  <p align="center">
+  <a href=" ">
+    <img src="Imagens\grafico_plano_saude_atendimento_sintomas.PNG" alt="webapp-architecture">
+  </a>
+  <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
+</p>
+
+A próxima característica analisada foi a % de pessoas que testaram positivo por UF:</p>
+
+ <p align="center">
+  <a href=" ">
+    <img src="Imagens\grafico_teste_positivo.PNG" alt="webapp-architecture">
+  </a>
+  <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
+</p>
+Pelo gráfico, podemos ver que os estados que mais tiveram testes positivos para COVID foram: São Paulo (6.82%), Rio de Janeiro (6.61%), Maranhão (6.59%),  Goiás (6.24%).</p>
+Relacionando esses dados com os estados que mais fizeram teste, vemos que a taxa de casos positivos/população testada de Roraima é uma das mais altas, sendo que 49% da população testada, tiveram um resultado positivo. E São Paulo, tendo umas taxas mais baixas, provavelmente devido seu investimento na compra de testes, que aumentou o número de pessoas que podiam realizá-lo.</p>
+Além disso, observamos que os estados com as maiores taxas de casos positivos sobre a população testada, são os etados do Norte: Roraima, Amapá, Acre. Esses estados, segundo IBGE (https://www.ibge.gov.br/explica/pib.php)
+possuíram os menores PIB em 2020. Assim, podemos entender que não havia investimento disponível para compra de teste, e portanto apenas casos prioritários eram testados.</p>
+
+<p align="center">
+  <a href=" ">
+    <img src="Imagens\grafico_taxa.PNG" alt="webapp-architecture">
+  </a>
+  <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
+</p>
+
+Posteriormente, analisamos se as pessoas respeitaram a restrição da quarentena.</p>
+Sabemos que a COVID foi uma doença viral que se espalhava através do ar, e que uma das medidas para sua contenção foi a quarentena, onde era indicado à população que permanecessem em casa, evitando a disseminação do vírus.</p>
+Os resultados observados indicam que a população seguiu, quando possível, as orientações de restrição.</p>
+Apenas 4% dos entrevistados não se preocuparam em permanecer na quarentena. E embora 2.35% dos entrevistados tenha saído de casa para trabalho ou necessidades básicas, mesmo após testando positivo para a doença, 53.3% da população ficou rigorosamente em casa, ou saiu apenas em necessidade essencial.</p>
+<p align="center">
+  <a href=" ">
+    <img src="Imagens\grafico_restricao_resultado.PNG" alt="webapp-architecture">
+  </a>
+  <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
+</p>
 
 
-# Modelos preditivos
+# Características da População
+
+
+
+# Características Economicas da Sociedade
+
+# Conclusão
