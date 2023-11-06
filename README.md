@@ -28,10 +28,10 @@ Repositório criado para o tech challenge 3 do curso de data analytics da FIAP
 
 
 # Objetivo do Tech Challenge
-Este projeto foi criado para atender os requisitos do projeto Tech Challenge da [Faculdade de Tecnologia - FIAP](https://postech.fiap.com.br/?gclid=Cj0KCQjwnf-kBhCnARIsAFlg49228y9z3y6lf_mWZEekgcxZRZBDavxtRT-zAUNs33TZOJtXpGVMNlAaAue5EALw_wcB).<br>
-O Desafio consistia em analisar uma base de dados do IBGE a respeito da COVID 19, e trazer os principais indicadores de planejamento que um hospital deveria ter, mediante um novo surto da doença.
-A respeito do estudo, o IBGE entrevistou milhares de brasileiros, afim de obter informações clínicas/socioeconômicas a respeito da população durante a pandemia da covid-19 que ocorreu em 2020.
-O desafio precisava cumprir os critérios abaixo:
+Este projeto foi criado para atender os requisitos do projeto Tech Challenge da [Faculdade de Tecnologia - FIAP](https://postech.fiap.com.br/?gclid=Cj0KCQjwnf-kBhCnARIsAFlg49228y9z3y6lf_mWZEekgcxZRZBDavxtRT-zAUNs33TZOJtXpGVMNlAaAue5EALw_wcB).<br></p>
+O Desafio consistia em analisar uma base de dados do IBGE a respeito da COVID 19, e trazer os principais indicadores de planejamento que um hospital deveria ter, mediante um novo surto da doença.</p>
+A respeito do estudo, o IBGE entrevistou milhares de brasileiros, afim de obter informações clínicas/socioeconômicas a respeito da população durante a pandemia da covid-19 que ocorreu em 2020.</p>
+O desafio precisava cumprir os critérios abaixo:</p>
 - Analise da base histórica disponibilizada no site do IBGE;
 - Escolha de até 20 perguntas da base extraída;
 - Organização da base em um banco de dados de BigData;
@@ -41,7 +41,7 @@ O desafio precisava cumprir os critérios abaixo:
 # Estudo PNAD COVID 19-IBGE
 
 A fonte de dados utilizada no projeto se encontra disponível em :(https://covid19.ibge.gov.br/pnad-covid/).<br></p>
-O estudo foi realizado pelo IBGE coletando informações entre maio/2020 e novembro/2020, e possuía o objetivo de medir a influência da pandemia do coronavírus no mercado de trabalho brasileiro, além de produzir </p>informações relacionadas aos sintomas de gripe, e às comorbidades que a população apresentava na época. </p>
+O estudo foi realizado pelo IBGE coletando informações entre maio/2020 e novembro/2020, e possuía o objetivo de medir a influência da pandemia do coronavírus no mercado de trabalho brasileiro, além de produzir informações relacionadas aos sintomas de gripe, e às comorbidades que a população apresentava na época. </p>
 A pesquisa apresentou resultado relevante a respeito da importancia do auxílio emergencial do governo, do modelo de trabalho e como a população lidou com os sintomas apresentados.</p>
 </p>
 </p>
@@ -98,9 +98,9 @@ Assim, as perguntas utilizadas foram:</p>
 
 
 Observações: conforme apontado pelos professores nas Lives realizadas, nós poderíamos utilizar a pergunta "Realizou o teste de covid?; Qual foi o resultado?" como uma pergunta só;
-Mas como na base havia a pergunta genérica se o entrevistado realizou o teste, mas ela não havia resposta direta, utilizamos um compliado das respostas de cada teste indivual, para poder respondê-la;
+Nas tabelas havia a pergunta genérica se o entrevistado realizou o teste, mas ela não havia resposta direta, utilizamos um compliado das respostas de cada teste indivual, para poder respondê-la;
 
-Além disso, consideramos que a pergunta "Recebia pela atividade remuerada realizada " e "Faixa Valor da atividade" também podem ser consideradas como uma só.
+Além disso, consideramos que as perguntas "Recebia pela atividade remuerada realizada " e "Faixa Valor da atividade" também poderiam ser consideradas como uma só.
 
 
 # Organização do Banco de dados
@@ -297,7 +297,7 @@ Podemos ver pelo gráfico acima, que nossa amostra está bem distibuída entre a
 A escolaridade da amostra também foi outro fator analisado. Vemos que cerca de 33% da amostra não possuía ensino fundamental completo.</p>
 22% haviam concluído o ensino médio e 1.6% haviam realizado algum tipo de especialização. </p>
 Além disso, 41% dos entrevistados eram pessoas brancas, 49% eram pardas, 8% eram pretas e 0.59% eram indígenas. </p>
-Esses dados vão de encontro com os reportados pelo IBGE. Segundo estudo realizado pelo órgão (https://educa.ibge.gov.br/jovens/conheca-o-brasil/populacao/18319-cor-ou-raca.html), em 2022 42,8% da população era branca, 10.6% era preta e 45.3% era parda.
+Esses dados vão de encontro com os reportados pelo IBGE. Segundo estudo realizado pelo órgão (https://educa.ibge.gov.br/jovens/conheca-o-brasil/populacao/18319-cor-ou-raca.html), em 2022: 42,8% da população era branca, 10.6% era preta e 45.3% era parda.
 Assim, vemos que a entrevista não foi tendenciosa e relatou a realidade da população brasileira.
 
 <p align="center">
@@ -316,7 +316,7 @@ Segundo o IBGE, o nordeste é uma das regiões com a taxa de urbanização mais 
   <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
 </p>
 
-Analisando a renda das pessoas com atividade remunerada com base no sexo, 65% recebiam renda de até R$1600,00. Sendo salário mínimo na época cerca de R$1045,00, vemos que a grande maioria da população tinha cerca de 1 salário minimo como renda. Além disso também observamos que a % de homens no mercado de trabalho é maior do que a de mulher. 58% das pessoas com atividade remunerada eram homens e 42% eram mulheres.</p>
+Analisando a renda das pessoas que possuíam atividade remunerada, 65% recebiam renda de até R$1600,00. Sendo o salário mínimo na época cerca de R$1045,00, vemos que a grande maioria da população tinha cerca de 1 salário minimo como renda. Além disso também observamos que a % de homens no mercado de trabalho é maior do que a de mulher. 58% das pessoas com atividade remunerada eram homens e 42% eram mulheres.</p>
 
 <p align="center">
   <a href=" ">
@@ -335,7 +335,7 @@ Outros aspecto analisado foi o plano de saúde da população. Dado que o plano 
 </p>
 
 
-Além disso, devemos levar em conta os estados em que estão mais concentrados a poplação que conta com convênios. 
+Além disso, devemos levar em conta os estados em que estão mais concentrados a população que conta com convênios. 
 Os estados do sudeste (São Paulo, Rio de Janeiro Distrito Federal) possuem taxa maior de pessoas com planos de saúde, enquanto que os estados do norte (Roraima, Maranhão e Amazonas) são os estados com os menores indices.
 É um fator que pode ser associado ao IDH dos estados (https://socientifica.com.br/estados-brasileiros-com-os-maiores-idh/), quanto maior o indice de desenvolvimento humano, maior a taxa de população com acesso a condições melhores de saúde, por exemplo.</p>
 
@@ -346,7 +346,7 @@ Os estados do sudeste (São Paulo, Rio de Janeiro Distrito Federal) possuem taxa
   <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
 </p>
 Finalizando a analise das caracteristicas da população, temos um gráfico onde mostramos que mais de 99% da população possuía acesso a itens fundamentais de higiene, para contenção do vírus: Mascaras e Sabão/detergente.</p>
-Na época da pandemia, a sociedade era não só instruída a não sair sem mascara e utilizar detergente/sabão para lavar as mãos, como haviam leis que tornavam a utilização da macára obrigatória em diversos estados, como forma de prevenir a disseminação do vírus. 
+Na época da pandemia, a sociedade era instruída a não sair sem mascara e utilizar detergente/sabão para lavar as mãos, e haviam leis que tornavam a utilização da macára obrigatória em diversos estados, como forma de prevenir a disseminação do vírus. 
 <p align="center">
   <a href=" ">
     <img src="Imagens\Grafico_higiene.PNG" alt="webapp-architecture">
@@ -357,10 +357,10 @@ Na época da pandemia, a sociedade era não só instruída a não sair sem masca
 
 # Características Economicas da Sociedade
 Sobre as caracteríticas econômicas da sociedade, inciamos os estudos analisando a % da população que teve acesso ao auxilio emergencial que o governo proporcionou durante a época do COVID.</p>
-O auxilio foi distribuído pelo governo, e para o cidadão receber precisava cumprir os requisitos abaixo: ter mais de 18 anos, ser de família com renda mensal per capita (por pessoa) de até meio salário mínimo (R$ 522,50) ou renda familiar mensal total de até três salários mínimos (R$ 3.135), além de não ter tido rendimentos tributáveis, em 2018, acima de R$ 28.559,70.</p>
+O auxilio foi distribuído pelo governo, e para o cidadão receber precisava cumprir os requisitos listados: ter mais de 18 anos, ser de família com renda mensal per capita (por pessoa) de até meio salário mínimo (R$ 522,50) ou renda familiar mensal total de até três salários mínimos (R$ 3.135), além de não ter tido rendimentos tributáveis, em 2018, acima de R$ 28.559,70.</p>
 
-Através do gráfico, podemos ver que diversas pessoas que não realizavam atividade remunerada ou que possuíam salário com menos de R$1600,00 não receberam auxilio. Vale lembrar que o auxilio não contemplava pessoas que recebiam mais de meio salário minimo, que já eram beneficiários do bolsa família e o auxilio era de apenas um integrante por família.
-Ou seja, poderíamos ter estudo a distribuição do auxilio para um público maior de pessoas que principalmente trabalhavam por conta própria, ou que estavam fora do mercado de trabalho por cuidarem de pessoas com condições especiais em casa, ou ainda que fossem trabalhadores domésticos que poderiam ter tido um impacto maior com as medidas de quarentena impostas na época.</p>
+Através do gráfico, podemos ver que diversas pessoas que não realizavam atividade remunerada ou que possuíam salário com menos de R$1600,00 não receberam auxilio. Vale lembrar que o auxilio não contemplava pessoas que recebiam mais de meio salário minimo, ou que já eram beneficiários do bolsa família e o auxilio era de apenas um integrante por família.
+Ou seja, poderíamos ter estudado a distribuição do auxilio para um público maior de pessoas que principalmente trabalhavam por conta própria, ou que estavam fora do mercado de trabalho por cuidarem de pessoas com condições especiais em casa, ou que ainda fossem trabalhadores domésticos que poderiam ter tido um impacto maior com as medidas de quarentena impostas na época.</p>
 
 <p align="center">
   <a href=" ">
@@ -377,7 +377,7 @@ Sobre a taxa de descoupação na época, cerca de 14% das pessoas entrevistadas 
   <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
 </p>
 
-Devido as medidas de restrição social, muitas das empresas tiveram que recorrer à mediadas extremas para sobreviver como: afastar funcionários ou demití-los. Muitas das pessoas que trabalhavam de forma autonoma ouq ue dependiam de doações tiveram que suspender suas atividades. 
+Devido as medidas de restrição social, empresas tiveram que recorrer à mediadas extremas para sobreviver como: afastar funcionários ou demití-los. Muitas das pessoas que trabalhavam de forma autonoma ou que dependiam de doações tiveram que suspender suas atividades. 
 Abaixo realizamos uma comparação entre as pessoas que pediram um empréstimo durante a época da pandemia.</p>
 A maioria se encontrava sem realizar atividades remuneradas e conseguiram ter o empréstimo aprovado.</p>
 <p align="center">
@@ -387,7 +387,7 @@ A maioria se encontrava sem realizar atividades remuneradas e conseguiram ter o 
   <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
 </p>
 
-Por último, analisamos as condições de trabalho da população na época. Quase 90% das pessoas que informaram estar realizando alguma atividade remunerada, estava realizando de fomra habitual, sem repseitar as restrições da quarentena. 4% Estava realizando seu trabalho em modelo de home office.
+Por último, analisamos as condições de trabalho da população na época. Quase 90% das pessoas que informaram estar realizando alguma atividade remunerada, estava realizando de fomra habitual, sem respeitar as restrições da quarentena. 4% Estava realizando seu trabalho em modelo de home office.
 
 <p align="center">
   <a href=" ">
@@ -405,9 +405,9 @@ Respondendo à principal pergunta do desafio: "Quais as principais medidas que o
 
 Se eu sou um hospital da inicitiva privada, meu plano seria:
 
-- Investir em teleatendimento, pois 53% dos entrevistados que sentiram alguns dos sintomas e possuiam plano de saúde, não procuraram atendimento. Entedemos que um dos fatores que pode ter influenciado nessa decisão seria o medo de procurar atendimento e se infectar com a doença, ou ainda a demora em receber atendimento no estabelecimento.</p>
-Além disso, 39% da população que possuía plano de saúde e não procurou estabelecimento, testou positivo para covid. O teleatendimento poderia ter orientado essa população com os cuidados necessários.
-15% das pessoas que procurarm atendimento público, possuía plano de saúde.
+- Investir em teleatendimento, pois 53% dos entrevistados que sentiram alguns dos sintomas e possuiam plano de saúde, não procuraram atendimento. Entedemos que um dos fatores que pode ter influenciado nessa decisão seria o receio de procurar atendimento e se infectar efetivamente com a doença, ou ainda a demora em receber atendimento no estabelecimento.</p>
+Além disso, 39% da população que possuía plano de saúde e não procurou atendimento, testou positivo para covid. O teleatendimento poderia ter orientado essa população com os cuidados necessários.</p>
+
   
  <p align="center">
   <a href=" ">
@@ -426,7 +426,7 @@ Além disso, 39% da população que possuía plano de saúde e não procurou est
 </p>
 
 
-- Investir em parcerias com os prestadores de serviços de convênios. 10,1% da população sem convênio médico, recebia mais R$1600,00. Talvez seria interessante tentar capturar a população com renda maior que não possuía plano de saúde.
+E 15% das pessoas que procuraram atendimento público, possuiam plano de saúde.
 
 
 Independente se sou um hospital de iniciativa privada ou pública, preciso:
@@ -448,7 +448,10 @@ Para isso, os hospitais devem contar com uma triagem melhor dos casos que irá s
 
 - Investir em hospitais de campanha; Devemos separar os tipos de doenças por pronto socorros. Os casos de emergencia por covid devem ser separados dos demais, pelo risco que apresentam. É importante que uma pessoa com infarto, por exemplo, não esteja ligada aos casos graves de covid, correndo risco de infecção.
 
+E por fim, o hospital deve se estar munido de informações. Estudos como esse do IBGE, ajudam a tomada de decisão. Eles nos guiam em questões de distribuição de insumos, localização de possíveis hospitais de campanha, características dos sintomas e nos auxiliam determinar qual a melhor estratégia para nosso negócio.</p>
+O vírus responsável pela pandemia é altamente mutável e já possuí diversas variações pelo mundo. É de se esperar que um novo surto da doença traga novos desafios de sintomas e seja mais resistente ao uso de medicamentos.
+Estudos como esse sempre vão nos auxiliar a tomar decisões mais concisas.
 
-Lembrando que todos os números foram extraídos do Dashboard Construído no PowerBi, envolvendo a manipulação dos gráficos dispostos no arquivo.
+Obs.:Lembrando que todos os números foram extraídos do Dashboard Construído no PowerBi, envolvendo a manipulação dos gráficos dispostos no arquivo.
 
   
