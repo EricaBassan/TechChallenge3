@@ -278,7 +278,72 @@ Apenas 4% dos entrevistados não se preocuparam em permanecer na quarentena. E e
 
 # Características da População
 
+Sobre a amostra de população, começamos analisando sexo e idade:</p>
+<p align="center">
+  <a href=" ">
+    <img src="Imagens\grafico_restricao_resultado.PNG" alt="webapp-architecture">
+  </a>
+  <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
+</p>
+Podemos ver pelo gráfico acima, que nossa amostra está bem distibuída entre ambos os genêros e possuí concentração de idade entre 20 e 60 anos. Sendo que a média de idade é próxima dos 40 anos, em ambos os sexos.</p>
 
+<p align="center">
+  <a href=" ">
+    <img src="Imagens\BoxPlot.PNG" alt="webapp-architecture">
+  </a>
+  <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
+</p>
+
+A escolaridade da amostra também foi outro fator analisado. Vemos que cerca de 33% da amostra não possuía ensino fundamental completo.</p>
+22% haviam concluído o ensino médio e 1.6% haviam realizado algum tipo de especialização. </p>
+Além disso, 41% dos entrevistados eram pessoas brancas, 49% eram pardas, 8% eram pretas e 0.59% eram indígenas. </p>
+Esses dados vão de encontro com os reportados pelo IBGE. Segundo estudo realizado pelo órgão (https://educa.ibge.gov.br/jovens/conheca-o-brasil/populacao/18319-cor-ou-raca.html), em 2022 42,8% da população era branca, 10.6% era preta e 45.3% era parda.
+Assim, vemos que a entrevista não foi tendenciosa e relatou a realidade da população brasileira.
+
+<p align="center">
+  <a href=" ">
+    <img src="Imagens\grafico_escolaridade_etnia.PNG" alt="webapp-architecture">
+  </a>
+  <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
+</p>
+
+As regiões que possuíam mais coincidiam com as regiões com mais populosas do Brasil: Sudeste, Nordeste e Sul, sendo que o Nordeste apresentou quase metade de sua população em zona rural.</p>
+Segundo o IBGE, o nordeste é uma das regiões com a taxa de urbanização mais baixa do país (https://www.ibge.gov.br/estatisticas/sociais/populacao/17374-indicadores-sociais-minimos.html).
+<p align="center">
+  <a href=" ">
+    <img src="Imagens\grafico_regiao_situacao_domiciliar.PNG" alt="webapp-architecture">
+  </a>
+  <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
+</p>
+
+Analisando a renda das pessoas com atividade remunerada com base no sexo, 65% recebiam renda de até R$1600,00. Sendo salário mínimo na época cerca de R$1045,00, vemos que a grande maioria da população tinha cerca de 1 salário minimo como renda. Além disso também observamos que a % de homens no mercado de trabalho é maior do que a de mulher. 58% das pessoas com atividade remunerada eram homens e 42% eram mulheres.</p>
+
+<p align="center">
+  <a href=" ">
+    <img src="Imagens\grafico_renda_sexo.PNG" alt="webapp-architecture">
+  </a>
+  <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
+</p>
+
+Outros aspecto analisado foi o plano de saúde da população. Dado que o plano de saúde possibilita acesso a hospitais de iniciativa privada, observamos que cerca de 22% da população, sem concnetração de idade, possuíam algum tipo de convênio médico. Isso significa que pelo menos mais de 70% dos entrevistados iriam procurar atendimento em hospitais públicos, sobrecarregando assim o sistema de saúde.
+
+<p align="center">
+  <a href=" ">
+    <img src="Imagens\Grafico_plano_saude_idade.PNG" alt="webapp-architecture">
+  </a>
+  <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
+</p>
+
+Outros aspecto analisado foi o plano de saúde da população. Dado que o plano de saúde possibilita acesso a hospitais de iniciativa privada, observamos que cerca de 22% da população, sem concnetração de idade, possuíam algum tipo de convênio médico. Isso significa que pelo menos mais de 70% dos entrevistados iriam procurar atendimento em hospitais públicos, sobrecarregando assim o sistema de saúde.
+
+<p align="center">
+  <a href=" ">
+    <img src="Imagens\Grafico_plano_saude_idade.PNG" alt="webapp-architecture">
+  </a>
+  <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
+</p>
+
+Além disso, a taxa de plano de saúde por poulação 
 
 # Características Economicas da Sociedade
 
