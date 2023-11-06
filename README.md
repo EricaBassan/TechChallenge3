@@ -325,7 +325,7 @@ Analisando a renda das pessoas com atividade remunerada com base no sexo, 65% re
   <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
 </p>
 
-Outros aspecto analisado foi o plano de saúde da população. Dado que o plano de saúde possibilita acesso a hospitais de iniciativa privada, observamos que cerca de 22% da população, sem concnetração de idade, possuíam algum tipo de convênio médico. Isso significa que pelo menos mais de 70% dos entrevistados iriam procurar atendimento em hospitais públicos, sobrecarregando assim o sistema de saúde.
+Outros aspecto analisado foi o plano de saúde da população. Dado que o plano de saúde possibilita acesso a hospitais de iniciativa privada, observamos que cerca de 22% da população, sem concentração de idade, possuíam algum tipo de convênio médico. Isso significa que pelo menos mais de 70% dos entrevistados iriam procurar atendimento em hospitais públicos, sobrecarregando assim o sistema de saúde.
 
 <p align="center">
   <a href=" ">
@@ -334,17 +334,59 @@ Outros aspecto analisado foi o plano de saúde da população. Dado que o plano 
   <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
 </p>
 
-Outros aspecto analisado foi o plano de saúde da população. Dado que o plano de saúde possibilita acesso a hospitais de iniciativa privada, observamos que cerca de 22% da população, sem concnetração de idade, possuíam algum tipo de convênio médico. Isso significa que pelo menos mais de 70% dos entrevistados iriam procurar atendimento em hospitais públicos, sobrecarregando assim o sistema de saúde.
+
+Além disso, devemos levar em conta os estados em que estão mais concentrados a poplação que conta com convênios. 
+Os estados do sudeste (São Paulo, Rio de Janeiro Distrito Federal) possuem taxa maior de pessoas com planos de saúde, enquanto que os estados do norte (Roraima, Maranhão e Amazonas) são os estados com os menores indices.
+É um fator que pode ser associado ao IDH dos estados (https://socientifica.com.br/estados-brasileiros-com-os-maiores-idh/), quanto maior o indice de desenvolvimento humano, maior a taxa de população com acesso a condições melhores de saúde, por exemplo.</p>
 
 <p align="center">
   <a href=" ">
-    <img src="Imagens\Grafico_plano_saude_idade.PNG" alt="webapp-architecture">
+    <img src="Imagens\grafico_uf_plano_saude.PNG" alt="webapp-architecture">
+  </a>
+  <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
+</p>
+Finalizando a analise das caracteristicas da população, temos um gráfico onde mostramos que mais de 99% da população possuía acesso a itens fundamentais de higiene, para contenção do vírus: Mascaras e Sabão/detergente.</p>
+Na época da pandemia, a sociedade era não só instruída a não sair sem mascara e utilizar detergente/sabão para lavar as mãos, como haviam leis que tornavam a utilização da macára obrigatória em diversos estados, como forma de prevenir a disseminação do vírus. 
+<p align="center">
+  <a href=" ">
+    <img src="Imagens\Grafico_higiene.PNG" alt="webapp-architecture">
   </a>
   <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
 </p>
 
-Além disso, a taxa de plano de saúde por poulação 
 
 # Características Economicas da Sociedade
+Sobre as caracteríticas econômicas da sociedade, inciamos os estudos analisando a % da população que teve acesso ao auxilio emergencial que o governo proporcionou durante a época do COVID.</p>
+O auxilio foi distribuído pelo governo, e para o cidadão receber precisava cumprir os requisitos abaixo: ter mais de 18 anos, ser de família com renda mensal per capita (por pessoa) de até meio salário mínimo (R$ 522,50) ou renda familiar mensal total de até três salários mínimos (R$ 3.135), além de não ter tido rendimentos tributáveis, em 2018, acima de R$ 28.559,70.</p>
+
+Através do gráfico, podemos ver que diversas pessoas que não realizavam atividade remunerada ou que possuíam salário com menos de R$1600,00 não receberam auxilio. Vale lembrar que o auxilio não contemplava pessoas que recebiam mais de meio salário minimo, que já eram beneficiários do bolsa família e o auxilio era de apenas um integrante por família.
+Ou seja, poderíamos ter estudo a distribuição do auxilio para um público maior de pessoas que principalmente trabalhavam por conta própria, ou que estavam fora do mercado de trabalho por cuidarem de pessoas com condições especiais em casa, ou ainda que fossem trabalhadores domésticos que poderiam ter tido um impacto maior com as medidas de quarentena impostas na época.</p>
+
+<p align="center">
+  <a href=" ">
+    <img src="Imagens\auxilio_emergencial_governo.PNG" alt="webapp-architecture">
+  </a>
+  <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
+</p>
+
+Sobre a taxa de descoupação na época, cerca de 14% das pessoas entrevistadas (e consideramos apenas maiores de 14 anos, assim como o IBGE), estavam sem realizar atividade remunerada na época.</p>
+<p align="center">
+  <a href=" ">
+    <img src="Imagens\taxa_descoupação.PNG" alt="webapp-architecture">
+  </a>
+  <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
+</p>
+
+Devido as medidas de restrição social, muitas das empresas tiveram que recorrer à mediadas extremas para sobreviver como: afastar funcionários ou demití-los. Muitas das pessoas que trabalhavam de forma autonoma ouq ue dependiam de doações tiveram que suspender suas atividades. 
+Abaixo realizamos uma comparação entre as pessoas que pediram um empréstimo durante a época da pandemia.</p>
+A maioria se encontrava sem realizar atividades remuneradas e conseguiram ter o empréstimo aprovado.</p>
+<p align="center">
+  <a href=" ">
+    <img src="Imagens\emprestimo.PNG" alt="webapp-architecture">
+  </a>
+  <caption style="font-size: smaller; text-align: center;">Figura 1</caption>
+</p>
+
+Por último, analisamos 
 
 # Conclusão
